@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positivus</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+    <div class="page1 mt-[3vw] max-sm:mt-[5vw]">
+        <nav class="flex items-center justify-between w-full px-[5vw]">
+            <svg class="w-[16vw] max-sm:w-[30vw]" viewBox="0 0 220 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_330_1194)">
+                <path d="M17.9986 5.53472L35.5997 0.349121L30.464 18.0001L35.5997 35.6012L17.9986 30.4655L0.347656 35.6012L5.53325 18.0001L0.347656 0.349121L17.9986 5.53472Z" fill="black"/>
+                </g>
+                <path d="M48.9199 31V3H60.0399C61.7466 3 63.2666 3.34667 64.5999 4.04C65.9599 4.70667 67.0133 5.66667 67.7599 6.92C68.5333 8.14667 68.9199 9.62667 68.9199 11.36V11.88C68.9199 13.6133 68.5199 15.1067 67.7199 16.36C66.9466 17.6133 65.8933 18.5733 64.5599 19.24C63.2266 19.9067 61.7199 20.24 60.0399 20.24H53.2399V31H48.9199ZM53.2399 16.32H59.5999C61.1199 16.32 62.3333 15.92 63.2399 15.12C64.1466 14.32 64.5999 13.2267 64.5999 11.84V11.44C64.5999 10.0267 64.1466 8.92 63.2399 8.12C62.3333 7.32 61.1199 6.92 59.5999 6.92H53.2399V16.32Z" fill="black"/>
+                <path d="M81.8346 31.56C79.8613 31.56 78.1013 31.16 76.5546 30.36C75.0346 29.5333 73.8346 28.36 72.9546 26.84C72.0746 25.32 71.6346 23.52 71.6346 21.44V20.84C71.6346 18.76 72.0746 16.9733 72.9546 15.48C73.8346 13.96 75.0346 12.7867 76.5546 11.96C78.1013 11.1333 79.8613 10.72 81.8346 10.72C83.8079 10.72 85.5679 11.1333 87.1146 11.96C88.6613 12.7867 89.8746 13.96 90.7546 15.48C91.6346 16.9733 92.0746 18.76 92.0746 20.84V21.44C92.0746 23.52 91.6346 25.32 90.7546 26.84C89.8746 28.36 88.6613 29.5333 87.1146 30.36C85.5679 31.16 83.8079 31.56 81.8346 31.56ZM81.8346 27.88C83.6479 27.88 85.1146 27.3067 86.2346 26.16C87.3813 24.9867 87.9546 23.3733 87.9546 21.32V20.96C87.9546 18.9067 87.3946 17.3067 86.2746 16.16C85.1546 14.9867 83.6746 14.4 81.8346 14.4C80.0479 14.4 78.5813 14.9867 77.4346 16.16C76.3146 17.3067 75.7546 18.9067 75.7546 20.96V21.32C75.7546 23.3733 76.3146 24.9867 77.4346 26.16C78.5813 27.3067 80.0479 27.88 81.8346 27.88Z" fill="black"/>
+                <path d="M105.284 31.56C102.777 31.56 100.697 31 99.044 29.88C97.3907 28.76 96.3773 27.0667 96.004 24.8L99.844 23.88C100.057 24.9733 100.417 25.84 100.924 26.48C101.431 27.12 102.057 27.5733 102.804 27.84C103.577 28.1067 104.404 28.24 105.284 28.24C106.591 28.24 107.591 27.9867 108.284 27.48C109.004 26.9733 109.364 26.32 109.364 25.52C109.364 24.72 109.031 24.1333 108.364 23.76C107.697 23.3867 106.711 23.08 105.404 22.84L104.044 22.6C102.711 22.36 101.497 22.0133 100.404 21.56C99.3106 21.1067 98.444 20.48 97.804 19.68C97.164 18.88 96.844 17.8533 96.844 16.6C96.844 14.7333 97.5373 13.2933 98.924 12.28C100.311 11.24 102.151 10.72 104.444 10.72C106.657 10.72 108.471 11.2267 109.884 12.24C111.324 13.2267 112.257 14.5733 112.684 16.28L108.844 17.36C108.604 16.16 108.097 15.32 107.324 14.84C106.551 14.3333 105.591 14.08 104.444 14.08C103.324 14.08 102.444 14.2933 101.804 14.72C101.164 15.12 100.844 15.6933 100.844 16.44C100.844 17.24 101.151 17.8267 101.764 18.2C102.404 18.5733 103.257 18.8533 104.324 19.04L105.724 19.28C107.137 19.52 108.431 19.8533 109.604 20.28C110.777 20.7067 111.697 21.32 112.364 22.12C113.057 22.92 113.404 23.9867 113.404 25.32C113.404 27.2933 112.671 28.8267 111.204 29.92C109.737 31.0133 107.764 31.56 105.284 31.56Z" fill="black"/>
+                <path d="M118.22 31V11.28H122.34V31H118.22ZM120.3 8.6C119.5 8.6 118.82 8.34667 118.26 7.84C117.726 7.30667 117.46 6.62667 117.46 5.8C117.46 4.97333 117.726 4.30667 118.26 3.8C118.82 3.26667 119.5 3 120.3 3C121.126 3 121.806 3.26667 122.34 3.8C122.873 4.30667 123.14 4.97333 123.14 5.8C123.14 6.62667 122.873 7.30667 122.34 7.84C121.806 8.34667 121.126 8.6 120.3 8.6Z" fill="black"/>
+                <path d="M135.854 31C134.654 31 133.694 30.64 132.974 29.92C132.281 29.2 131.934 28.24 131.934 27.04V14.76H126.494V11.28H131.934V4.76H136.054V11.28H141.934V14.76H136.054V26.32C136.054 27.12 136.427 27.52 137.174 27.52H141.294V31H135.854Z" fill="black"/>
+                <path d="M146.774 31V11.28H150.894V31H146.774ZM148.854 8.6C148.054 8.6 147.374 8.34667 146.814 7.84C146.281 7.30667 146.014 6.62667 146.014 5.8C146.014 4.97333 146.281 4.30667 146.814 3.8C147.374 3.26667 148.054 3 148.854 3C149.681 3 150.361 3.26667 150.894 3.8C151.428 4.30667 151.694 4.97333 151.694 5.8C151.694 6.62667 151.428 7.30667 150.894 7.84C150.361 8.34667 149.681 8.6 148.854 8.6Z" fill="black"/>
+                <path d="M161.569 31L154.929 11.28H159.289L164.529 27.96H165.169L170.409 11.28H174.769L168.129 31H161.569Z" fill="black"/>
+                <path d="M186.326 31.36C184.833 31.36 183.5 31.0267 182.326 30.36C181.153 29.6933 180.233 28.7467 179.566 27.52C178.9 26.2933 178.566 24.8267 178.566 23.12V11.28H182.686V22.84C182.686 24.5467 183.113 25.8133 183.966 26.64C184.82 27.44 186.006 27.84 187.526 27.84C189.206 27.84 190.553 27.28 191.566 26.16C192.606 25.0133 193.126 23.3733 193.126 21.24V11.28H197.246V31H193.206V28.04H192.566C192.193 28.84 191.526 29.6 190.566 30.32C189.606 31.0133 188.193 31.36 186.326 31.36Z" fill="black"/>
+                <path d="M211.417 31.56C208.91 31.56 206.83 31 205.177 29.88C203.523 28.76 202.51 27.0667 202.137 24.8L205.977 23.88C206.19 24.9733 206.55 25.84 207.057 26.48C207.563 27.12 208.19 27.5733 208.937 27.84C209.71 28.1067 210.537 28.24 211.417 28.24C212.723 28.24 213.723 27.9867 214.417 27.48C215.137 26.9733 215.497 26.32 215.497 25.52C215.497 24.72 215.163 24.1333 214.497 23.76C213.83 23.3867 212.843 23.08 211.537 22.84L210.177 22.6C208.843 22.36 207.63 22.0133 206.537 21.56C205.443 21.1067 204.577 20.48 203.937 19.68C203.297 18.88 202.977 17.8533 202.977 16.6C202.977 14.7333 203.67 13.2933 205.057 12.28C206.443 11.24 208.283 10.72 210.577 10.72C212.79 10.72 214.603 11.2267 216.017 12.24C217.457 13.2267 218.39 14.5733 218.817 16.28L214.977 17.36C214.737 16.16 214.23 15.32 213.457 14.84C212.683 14.3333 211.723 14.08 210.577 14.08C209.457 14.08 208.577 14.2933 207.937 14.72C207.297 15.12 206.977 15.6933 206.977 16.44C206.977 17.24 207.283 17.8267 207.897 18.2C208.537 18.5733 209.39 18.8533 210.457 19.04L211.857 19.28C213.27 19.52 214.563 19.8533 215.737 20.28C216.91 20.7067 217.83 21.32 218.497 22.12C219.19 22.92 219.537 23.9867 219.537 25.32C219.537 27.2933 218.803 28.8267 217.337 29.92C215.87 31.0133 213.897 31.56 211.417 31.56Z" fill="black"/>
+                <defs>
+                <clipPath id="clip0_330_1194">
+                <rect width="36" height="36" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                
+            <div class="nav-links  max-sm:hidden flex items-center gap-[3vw] text-[1.4vw] ">
+                <a href="#" class="nav-link">About Us</a>
+                <a href="#" class="nav-link">Services</a>
+                <a href="#" class="nav-link">Use Cases</a>
+                <a href="#" class="nav-link">Pricing</a>
+                <a href="#" class="nav-link">Billing</a>
+                <button class="px-[4vw] py-[2vw] border-2 border-zinc-900 rounded-lg">Request a quote</button>
+            </div>
+            <i class="ri-menu-line hidden max-sm:block"></i>
+        </nav>
+        <section class="w-full min-h-full flex justify-between max-sm:flex-col pl-[5vw] pr-[7vw] py-[2vw] max-sm:mt-[5vw]">
+            <div class="left w-[40%] max-sm:w-full">
+                <h1 class="text-[4vw] font-semibold max-sm:text-[10vw] max-sm:leading-[10vw] leading-[4vw]">Navigating the digital landscape for success</h1>
+                <p class="text-[1.2vw] mt-[2vw] max-sm:hidden leading-[1.8vw]">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+                <button class="px-[2vw] max-sm:hidden text-[1.5vw] mt-[2vw] py-[1.3vw] text-white bg-[#191A23] rounded-lg">Book a consultation</button>
+            </div>
+            <div class="right w-[40%] max-sm:w-full">
+                <img class="w-full h-full object-cover" src="./image/headerImg.png" alt="">
+                <p class="hidden max-sm:block max-sm:text-[4vw] max-sm:mb-[4vw]">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+                <button class="hidden max-sm:block max-sm:w-full max-sm:text-[5vw] max-sm:py-[3vw] text-white bg-[#191A23] rounded-lg">Book a consultation</button>
+            </div>
+        </section>
+        <div class="w-full flex items-center max-sm:flex-wrap max-sm:gap-[4vw] max-sm:mt-[8vw] justify-between px-[5vw] mt-[.5vw]">
+            <img class="w-[10vw] max-sm:w-[25vw] max-sm:h-[8vw] h-[4vw] text-zinc-700" src="./image/amazon.png" alt="">
+            <img class="w-[10vw] h-[4vw] max-sm:w-[25vw] max-sm:h-[8vw]" src="./image/dribble.png" alt="">
+            <img class="w-[8vw] h-[3vw] max-sm:w-[25vw] max-sm:h-[6vw]" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/HubSpot_Logo.png/800px-HubSpot_Logo.png" alt="">
+            <img class="w-[8vw] h-[3vw] max-sm:w-[25vw] max-sm:h-[6vw]" src="./image/notion.png" alt="">
+            <img class="w-[8vw] h-[2vw] max-sm:w-[25vw] max-sm:h-[5vw]" src="./image/netflix.png" alt="">
+            <img class="w-[8vw] h-[2vw] max-sm:w-[25vw] max-sm:h-[5vw]" src="./image/zoom.png" alt="">
+        </div>
+    </div>
+    <div class="page2 w-full h-full my-[6vw] px-[5vw]">
+        <div class="max-sm:flex-col max-sm:justify-center max-sm:mt-[10vw] flex items-center gap-[4vw] mb-[5vw]">
+            <h2 class="max-sm:text-[6vw] bg-[#B9FF66] font-bold text-[3vw] px-[.4vw] rounded-md inline">Services</h2>
+            <p class="max-sm:text-[3.5vw] max-sm:text-center max-sm:w-full text-[1.2vw] w-[44%]">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+        </div>
+        <section class="max-sm:flex-col flex flex-wrap gap-[3vw] justify-between">
+            <div class="card w-[47%] max-sm:w-full max-sm:h-[300px] max-sm:rounded-[7vw] max-sm:p-[10vw] border-zinc-900 border-[1px] border-b-[4px] bg-[#F3F3F3] flex justify-between rounded-[4vw] p-[2vw]">
+                <div class="flex flex-col justify-between gap-[3vw]">
+                    <div>
+                        <h3 class="max-sm:text-[4.5vw] bg-[#B9FF66] rounded-md text-[2.3vw] font-semibold">Search engine</h3>
+                        <h3 class="max-sm:text-[4.5vw] bg-[#B9FF66] rounded-md text-[2.3vw] font-semibold">optimization</h3>
+                    </div>
+                    <div class="flex gap-[1.5vw] items-center">
+                        <i class="ri-arrow-right-up-line max-sm:text-[5vw] max-sm:px-[2vw] rounded-full bg-[#191A23] px-[1vw] py-[.4vw] text-[#B9FF66] text-[2.5vw]"></i>
+                        <p class="max-sm:hidden text-[1.5vw]">Learn More</p>
+                    </div>
+                </div>
+                <div class="max-sm:w-[55%] flex items-end w-[19vw]">
+                    <img class="w-[90%] object-cover" src="./image/search.png" alt="">
+                </div>
+            </div>
+            <div class="greenCard w-[47%] max-sm:w-full max-sm:h-[300px] max-sm:rounded-[7vw] max-sm:p-[10vw] border-zinc-900 border-[1px] border-b-[4px] bg-[#B9FF66] flex justify-between rounded-[4vw] p-[3vw]">
+                <div class="flex flex-col justify-between gap-[3vw]">
+                    <div>
+                        <h3 class="max-sm:text-[4.5vw] bg-[#fff] rounded-md text-[2.3vw] font-semibold">Pay-per-click</h3>
+                        <h3 class="max-sm:text-[4.5vw] bg-[#fff] rounded-md text-[2.3vw] font-semibold">advertising</h3>
+                    </div>
+                    <div class="flex gap-[1.5vw] items-center">
+                        <i class="ri-arrow-right-up-line max-sm:text-[5vw] max-sm:px-[2vw] rounded-full bg-[#191A23] px-[1vw] py-[.4vw] text-[#B9FF66] text-[2.5vw]"></i>
+                        <p class="max-sm:hidden text-[1.5vw]">Learn More</p>
+                    </div>
+                </div>
+                <div class="max-sm:w-[55%] max-sm:flex max-sm:items-end w-[19vw] p-[2vw]">
+                    <img class="w-[90%] object-cover" src="./image/click.png" alt="">
+                </div>
+            </div>
+            <div class="blackCard w-[47%] max-sm:w-full max-sm:h-[300px] max-sm:rounded-[7vw] max-sm:p-[10vw] border-zinc-900 border-[1px] border-b-[4px] bg-[#191A23] flex justify-between rounded-[4vw] p-[3vw]">
+                <div class="flex flex-col justify-between gap-[3vw]">
+                    <div>
+                        <h3 class="max-sm:text-[4.5vw] bg-[#fff] rounded-md text-[2.3vw] font-semibold">Social Media</h3>
+                        <h3 class="max-sm:text-[4.5vw] bg-[#fff] rounded-md text-[2.3vw] font-semibold">Marketing</h3>
+                    </div>
+                    <div class="flex gap-[1.5vw] items-center">
+                        <i class="ri-arrow-right-up-line max-sm:text-[5vw] max-sm:px-[2vw] rounded-full bg-[#fff] px-[1vw] py-[.4vw] text-[#000] text-[2.5vw]"></i>
+                        <p class="max-sm:hidden text-[1.5vw] text-white">Learn More</p>
+                    </div>
+                </div>
+                <div class="max-sm:w-[55%] max-sm:flex max-sm:items-end w-[19vw] p-[2vw]">
+                    <img class="w-[90%] object-cover" src="./image/emoji.png" alt="">
+                </div>
+            </div>
+            <div class="card w-[47%] max-sm:w-full max-sm:h-[300px] max-sm:rounded-[7vw] max-sm:p-[10vw] border-zinc-900 border-[1px] border-b-[4px] bg-[#F3F3F3] flex justify-between rounded-[4vw] p-[3vw]">
+                <div class="flex flex-col justify-between gap-[3vw]">
+                    <div>
+                        <h3 class="max-sm:text-[4.5vw] bg-[#B9FF66] rounded-md text-[2.3vw] font-semibold">Email</h3>
+                        <h3 class="max-sm:text-[4.5vw] bg-[#B9FF66] rounded-md text-[2.3vw] font-semibold">Marketing</h3>
+                    </div>
+                    <div class="flex gap-[1.5vw] items-center">
+                        <i class="ri-arrow-right-up-line max-sm:text-[5vw] max-sm:px-[2vw] rounded-full bg-[#191A23] px-[1vw] py-[.4vw] text-[#B9FF66] text-[2.5vw]"></i>
+                        <p class="max-sm:hidden text-[1.5vw]">Learn More</p>
+                    </div>
+                </div>
+                <div class="max-sm:w-[55%] max-sm:flex max-sm:items-end w-[19vw] p-[2vw]">
+                    <img class="w-[90%] object-cover" src="./image/mail.png" alt="">
+                </div>
+            </div>
+            <div class="greenCard w-[47%] max-sm:w-full max-sm:h-[300px] max-sm:rounded-[7vw] max-sm:p-[10vw] border-zinc-900 border-[1px] border-b-[4px] bg-[#B9FF66] flex justify-between rounded-[4vw] p-[3vw]">
+                <div class="flex flex-col justify-between gap-[3vw]">
+                    <div>
+                        <h3 class="max-sm:text-[4.5vw] bg-[#fff] rounded-md text-[2.3vw] font-semibold">Content</h3>
+                        <h3 class="max-sm:text-[4.5vw] bg-[#fff] rounded-md text-[2.3vw] font-semibold">Creation</h3>
+                    </div>
+                    <div class="flex gap-[1.5vw] items-center">
+                        <i class="ri-arrow-right-up-line max-sm:text-[5vw] max-sm:px-[2vw] rounded-full bg-[#191A23] px-[1vw] py-[.4vw] text-[#B9FF66] text-[2.5vw]"></i>
+                        <p class="max-sm:hidden text-[1.5vw]">Learn More</p>
+                    </div>
+                </div>
+                <div class="max-sm:w-[55%] max-sm:flex max-sm:items-end w-[19vw] p-[2vw]">
+                    <img class="w-[90%] object-cover" src="./image/taskbar.png" alt="">
+                </div>
+            </div>
+            <div class="blackCard w-[47%] max-sm:w-full max-sm:h-[300px] max-sm:rounded-[7vw] max-sm:p-[10vw] border-zinc-900 border-[1px] border-b-[4px] bg-[#191A23] flex justify-between rounded-[4vw] p-[3vw]">
+                <div class="flex flex-col justify-between gap-[3vw]">
+                    <div>
+                        <h3 class="max-sm:text-[4.5vw] bg-[#B9FF66] rounded-md text-[2.3vw] font-semibold">Analytics and</h3>
+                        <h3 class="max-sm:text-[4.5vw] bg-[#B9FF66] rounded-md text-[2.3vw] font-semibold">tracking</h3>
+                    </div>
+                    <div class="flex gap-[1.5vw] items-center">
+                        <i class="ri-arrow-right-up-line max-sm:text-[5vw] max-sm:px-[2vw] rounded-full bg-[#fff] px-[1vw] py-[.4vw] text-[#000] text-[2.5vw]"></i>
+                        <p class="max-sm:hidden text-[1.5vw] text-white">Learn More</p>
+                    </div>
+                </div>
+                <div class="max-sm:w-[55%] max-sm:flex max-sm:items-end w-[19vw] p-[2vw]">
+                    <img class="w-[90%] object-cover" src="./image/charts.png" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="page3 w-full h-full px-[5vw] overflow-hidden">
+        <div class="max-sm:rounded-[7vw] max-sm:p-[4vw] bg-[#F3F3F3] w-[100%] mb-[8vw] rounded-[45px] pl-[2vw] pr-[8vw] flex justify-between items-center gap-[20vw]">
+            <div class="max-sm:w-full w-[65%] p-[3vw]">
+                <h3 class="max-sm:text-[8vw] max-sm:leading-[8vw] max-sm:mb-[2vw] text-[2.5vw] font-semibold mb-[1vw]">Let's make things happen</h3>
+                <p class="max-sm:text-[4vw] max-sm:my-[4vw] text-[1.5vw] mb-[1vw]">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
+                <button class="max-sm:hidden bg-[#191A23] rounded-[1.2vw] text-white text-[1.5vw] px-[3vw] py-[1vw]">Get your free proposal</button>
+                <button class="max-sm:w-full hidden max-sm:block max-sm:text-[4vw] max-sm:py-[2.5vw] bg-[#191A23] rounded-[1.5vw] text-white text-[1.5vw] px-[3vw] py-[1vw]">Get your proposal</button>
+            </div>
+            <div class="max-sm:hidden w-[50%] h-full">
+                <img class="w-[100%] h-full object-cover" src="./image/star&Circle.png" alt="">
+            </div>
+        </div>
+        <div class="max-sm:flex-col max-sm:justify-center max-sm:mt-[10vw] flex items-center gap-[4vw] mb-[5vw]">
+            <h2 class="max-sm:text-[6vw] bg-[#B9FF66] font-semibold text-[3vw] px-[.4vw] rounded-md inline">Case Studies</h2>
+            <p class="max-sm:text-[3.5vw] max-sm:text-center max-sm:w-full text-[1.2vw] w-[44%]">Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>
+        </div>
+        <div class="max-sm:hidden bg-[#191A23] rounded-[4vw] mb-[8vw] flex justify-between px-[3vw] py-[4vw]">
+            <div class="w-[30%] border-r-2 border-zinc-200 pr-[4vw]">
+                <p class="text-white text-[18px]">For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
+                <div class="flex items-center">
+                    <p class="text-[#B9FF66] text-[20px]">Learn More</p>
+                    <i class="ri-arrow-right-up-line max-sm:text-[5vw] max-sm:px-[2vw] rounded-full px-[1vw] py-[.4vw] text-[#B9FF66] text-[2vw]"></i>
+                </div>
+            </div>
+            <div class="w-[30%] border-r-2 border-zinc-200 pr-[4vw]">
+                <p class="text-white text-[18px]">For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.</p>
+                <div class="flex items-center">
+                    <p class="text-[#B9FF66] text-[20px]">Learn More</p>
+                    <i class="ri-arrow-right-up-line max-sm:text-[5vw] max-sm:px-[2vw] rounded-full px-[1vw] py-[.4vw] text-[#B9FF66] text-[2vw]"></i>
+                </div>
+            </div>
+            <div class="w-[25%]">
+                <p class="text-white text-[18px]">For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.</p>
+                <div class="flex items-center">
+                    <p class="text-[#B9FF66] text-[20px]">Learn More</p>
+                    <i class="ri-arrow-right-up-line max-sm:text-[5vw] max-sm:px-[2vw] rounded-full px-[1vw] py-[.4vw] text-[#B9FF66] text-[2vw]"></i>
+                </div>
+            </div>
+        </div>
+        <div class="hidden max-sm:block max-sm:w-[1200px] max-sm:h-[170px] max-sm:flex max-sm:gap-[4vw] max-sm:overflow-hidden max-sm:px-[5vw]">
+            <div class="bg-[#191A23] w-[28%] rounded-[5vw] px-[8vw] py-[5vw]">
+                <p class="text-white max-sm:text-[3vw] max-sm:mb-[3vw]">For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
+                <div class="flex items-center">
+                    <p class="text-[#B9FF66] max-sm:text-[4.5vw]">Learn More</p>
+                    <i class="ri-arrow-right-up-line max-sm:text-[5vw] max-sm:px-[2vw] rounded-full px-[1vw] py-[.4vw] text-[#B9FF66] text-[2vw]"></i>
+                </div>
+            </div>
+            <div class="bg-[#191A23] w-[20%] rounded-[5vw] p-[8vw]">
+                
+            </div>
+        </div>
+    </div>
+    <div class="page4 w-full h-full px-[5vw] mb-[8vw]">
+        <div class="max-sm:flex-col max-sm:justify-center max-sm:mt-[10vw] flex items-center gap-[4vw] mb-[5vw]">
+            <h2 class="max-sm:text-[6vw] bg-[#B9FF66] font-semibold text-[3vw] px-[.4vw] rounded-md inline">Our Working Process</h2>
+            <p class="max-sm:text-[3.5vw] max-sm:text-center max-sm:w-full text-[1.2vw] w-[44%]">Step-by-Step Guide to Achieving <br> Your Business Goals</p>
+        </div>
+        <div class="bg-[#B9FF66] max-sm:hidden max-sm:rounded-[8vw] rounded-[4vw] px-[3vw] py-[2vw] mb-[2vw] border-b-[5px] border-[1px] border-[#191A23]" max-sm:px-[5vw]>
+            <div class="flex items-center justify-between border-b-[1px] border-zinc-900 pb-[1vw] mb-[1vw]">
+                <div class="flex items-center gap-[2vw]">
+                 <h1 class="max-sm:text-[6vw] text-[4vw] font-semibold">01</h1>
+                    <p class="max-sm:text-[3vw] text-[2vw] font-semibold">Consultation</p>
+                </div>
+                <img class="max-sm:w-[29px] max-sm:h-[29px] w-[58px] h-[58px]" src="./image/minus.png" alt="">
+            </div>
+            <p class="max-sm:text-[2.6vw] text-[1.3vw]">During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements.</p>
+        </div>
+        <div class="bg-[#F3F3F3] hidden max-sm:block max-sm:rounded-[8vw] max-sm:px-[5vw] rounded-[4vw] px-[3vw] py-[2vw] mb-[2vw] border-b-[5px] border-[1px] border-[#191A23]">
+            <div class="flex items-center justify-between mb-[1vw]">
+                <div class="flex items-center gap-[2vw]">
+                    <h1 class="max-sm:text-[5vw] text-[4vw] font-semibold">01</h1>
+                    <p class="max-sm:text-[3vw] text-[2vw] font-semibold">Consultation</p>
+                </div>
+                <img class="max-sm:w-[29px] max-sm:h-[29px] w-[58px] h-[58px]" src="./image/plus.png" alt="">
+            </div>
+        </div>
+        <div class="bg-[#F3F3F3] max-sm:rounded-[8vw] max-sm:px-[5vw] rounded-[4vw] px-[3vw] py-[2vw] mb-[2vw] border-b-[5px] border-[1px] border-[#191A23]">
+            <div class="flex items-center justify-between mb-[1vw]">
+                <div class="flex items-center gap-[2vw]">
+                    <h1 class="max-sm:text-[5vw] text-[4vw] font-semibold">02</h1>
+                    <p class="max-sm:text-[3vw] text-[2vw] font-semibold">Research and Strategy Development</p>
+                </div>
+                <img class="max-sm:w-[29px] max-sm:h-[29px] w-[58px] h-[58px]" src="./image/plus.png" alt="">
+            </div>
+        </div>
+        <div class="bg-[#F3F3F3] max-sm:rounded-[8vw] max-sm:px-[5vw] rounded-[4vw] px-[3vw] py-[2vw] mb-[2vw] border-b-[5px] border-[1px] border-[#191A23]">
+            <div class="flex items-center justify-between mb-[1vw]">
+                <div class="flex items-center gap-[2vw]">
+                    <h1 class="max-sm:text-[5vw] text-[4vw] font-semibold">03</h1>
+                    <p class="max-sm:text-[3vw] text-[2vw] font-semibold">Implementation</p>
+                </div> 
+                <img class="max-sm:w-[29px] max-sm:h-[29px] w-[58px] h-[58px]" src="./image/plus.png" alt="">
+            </div>
+        </div>
+        <div class="bg-[#F3F3F3] max-sm:rounded-[8vw] max-sm:px-[5vw] rounded-[4vw] px-[3vw] py-[2vw] mb-[2vw] border-b-[5px] border-[1px] border-[#191A23]">
+            <div class="flex items-center justify-between mb-[1vw]">
+                <div class="flex items-center gap-[2vw]">
+                    <h1 class="max-sm:text-[5vw] text-[4vw] font-semibold">04</h1>
+                    <p class="max-sm:text-[3vw] text-[2vw] font-semibold">Monitoring and Optimization</p>
+                </div>
+                <img class="max-sm:w-[29px] max-sm:h-[29px] w-[58px] h-[58px]" src="./image/plus.png" alt="">
+            </div>
+        </div>
+        <div class="bg-[#F3F3F3] max-sm:rounded-[8vw] max-sm:px-[5vw] rounded-[4vw] px-[3vw] py-[2vw] mb-[2vw] border-b-[5px] border-[1px] border-[#191A23]">
+            <div class="flex items-center justify-between mb-[1vw]">
+                <div class="flex items-center gap-[2vw]">
+                    <h1 class="max-sm:text-[5vw] text-[4vw] font-semibold">05</h1>
+                    <p class="max-sm:text-[3vw] text-[2vw] font-semibold">Reporting and Communication</p>
+                </div>
+                <img class="max-sm:w-[29px] max-sm:h-[29px] w-[58px] h-[58px]" src="./image/plus.png" alt="">
+            </div>
+        </div>
+        <div class="bg-[#F3F3F3] max-sm:rounded-[8vw] max-sm:px-[5vw] rounded-[4vw] px-[3vw] py-[2vw] mb-[2vw] border-b-[5px] border-[1px] border-[#191A23]">
+            <div class="flex items-center justify-between mb-[1vw]">
+                <div class="flex items-center gap-[2vw]">
+                    <h1 class="max-sm:text-[5vw] text-[4vw] font-semibold">06</h1>
+                    <p class="max-sm:text-[3vw] text-[2vw] font-semibold">Continual Improvement</p>
+                </div>
+                <img class="max-sm:w-[29px] max-sm:h-[29px] w-[58px] h-[58px]" src="./image/plus.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="page5 px-[5vw] mb-[5vw]">
+        <div class="max-sm:flex-col max-sm:justify-center max-sm:mt-[10vw] flex items-center gap-[4vw] mb-[3vw]">
+            <h2 class="max-sm:text-[6vw] bg-[#B9FF66] font-semibold text-[3vw] px-[.4vw] rounded-md inline">Team</h2>
+            <p class="max-sm:text-[3.5vw] max-sm:text-center max-sm:w-full text-[1.2vw] w-[44%]">Meet the skilled and experienced team behind our <br> successful digital marketing strategies</p>
+        </div>
+        <div class="team max-sm:flex-col flex flex-wrap gap-[5vw] justify-evenly py-[3vw]">
+            <div class="member max-sm:px-[12vw] max-sm:py-[8vw] max-sm:w-[390px] max-sm:rounded-[8vw] w-[27%] border-[1px] border-zinc-900 border-b-[5px] rounded-[3vw] p-[2vw]">
+                <div class="flex items-start justify-between gap-[.3vw] border-b-[1px] border-[#191A23] pb-[2vw]">
+                    <div class="flex max-sm:ga2 gap-[1vw] items-end">
+                        <img class="max-sm:w-[20vw] w-[6vw]" src="./image/team/member1.png" alt="">
+                        <div>
+                            <h3 class="max-sm:text-[4vw] text-[1.2vw] font-semibold">John Smith</h3>
+                            <p class="max-sm:text-[3.8vw] text-[1.2vw]">CEO & Founder</p>
+                        </div>
+                    </div>
+                    <img class="max-sm:w-[8vw] w-[2vw]" src="./image/linkedIn.png" alt="">
+                </div>
+                <p class="max-sm:text-[3.5vw] text-[1vw] mt-[2vw]">10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy</p>
+            </div>
+            <div class="member max-sm:px-[12vw] max-sm:py-[8vw] max-sm:w-[390px]  max-sm:rounded-[8vw] w-[27%] border-[1px] border-zinc-900 border-b-[5px] rounded-[3vw] p-[2vw]">
+                <div class="flex items-start justify-between gap-[.3vw] border-b-[1px] border-[#191A23] pb-[2vw]">
+                    <div class="flex max-sm:gap-[3vw] gap-[1vw] items-end">
+                        <img class="max-sm:w-[20vw] w-[6vw]" src="./image/team/member2.png" alt="">
+                        <div>
+                            <h3 class="max-sm:text-[4vw] text-[1.2vw] font-semibold">Jane Doe</h3>
+                            <p class="max-sm:text-[3.8vw] text-[1.2vw]">Director of Operations</p>
+                        </div>
+                    </div>
+                    <img class="max-sm:w-[8vw] w-[2vw]" src="./image/linkedIn.png" alt="">
+                </div>
+                <p class="max-sm:text-[3.5vw] text-[1vw] mt-[2vw]">7+ years of experience in project management and team leadership. Strong organizational and communication skills</p>
+            </div>
+            <div class="member max-sm:px-[12vw] max-sm:py-[8vw] max-sm:w-[390px]  max-sm:rounded-[8vw] w-[27%] border-[1px] border-zinc-900 border-b-[5px] rounded-[3vw] p-[2vw]">
+                <div class="flex items-start justify-between gap-[.3vw] border-b-[1px] border-[#191A23] pb-[2vw]">
+                    <div class="flex max-sm:gap-[3vw] gap-[1vw] items-end">
+                        <img class="max-sm:w-[20vw] w-[6vw]" src="./image/team/member3.png" alt="">
+                        <div>
+                            <h3 class="max-sm:text-[4vw] text-[1.2vw] font-semibold">Michael Brown</h3>
+                            <p class="max-sm:text-[3.8vw] text-[1.2vw]">Senior SEO Specialist</p>
+                        </div>
+                    </div>
+                    <img class="max-sm:w-[8vw] w-[2vw]" src="./image/linkedIn.png" alt="">
+                </div>
+                <p class="max-sm:text-[3.5vw] text-[1vw] mt-[2vw]">5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization</p>
+            </div>
+            <div class="member max-sm:px-[12vw] max-sm:py-8vw] max-sm:w-[390px]  max-sm:rounded-[8vw] w-[27%] border-[1px] border-zinc-900 border-b-[5px] rounded-[3vw] p-[2vw]">
+                <div class="flex items-start justify-between gap-[.3vw] border-b-[1px] border-[#191A23] pb-[2vw]">
+                    <div class="flex max-sm:gap-[3vw] gap-[1vw] items-end">
+                        <img class="max-sm:w-[20vw] w-[6vw]" src="./image/team/member4.png" alt="">
+                        <div>
+                            <h3 class="max-sm:text-[4vw] text-[1.2vw] font-semibold">Emily Johnson</h3>
+                            <p class="max-sm:text-[3.8vw] text-[1.2vw]">PPC Manager</p>
+                        </div>
+                    </div>
+                    <img class="max-sm:w-[8vw] w-[2vw]" src="./image/linkedIn.png" alt="">
+                </div>
+                <p class="max-sm:text-[3.5vw] text-[1vw] mt-[2vw]">3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis</p>
+            </div>
+            <div class="member max-sm:px-[12vw] max-sm:py-[8vw] max-sm:w-[390px]  max-sm:rounded-[8vw] w-[27%] border-[1px] border-zinc-900 border-b-[5px] rounded-[3vw] p-[2vw]">
+                <div class="flex items-start justify-between gap-[.3vw] border-b-[1px] border-[#191A23] pb-[2vw]">
+                    <div class="flex max-sm:gap-[3vw] gap-[1vw] items-end">
+                        <img class="max-sm:w-[20vw] w-[6vw]" src="./image/team/member5.png" alt="">
+                        <div>
+                            <h3 class="max-sm:text-[4vw] text-[1.2vw] font-semibold">Brian Williams</h3>
+                            <p class="max-sm:text-[3.8vw] text-[1.2vw]">Social Media Specialist</p>
+                        </div>
+                    </div>
+                    <img class="max-sm:w-[8vw] w-[2vw]" src="./image/linkedIn.png" alt="">
+                </div>
+                <p class="max-sm:text-[3.5vw] text-[1vw] mt-[2vw]">4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement</p>
+            </div>
+            <div class="member max-sm:px-[12vw] max-sm:py-[8vw] max-sm:w-[390px]  max-sm:rounded-[8vw] w-[27%] border-[1px] border-zinc-900 border-b-[5px] rounded-[3vw] p-[2vw]">
+                <div class="flex items-start justify-between gap-[.3vw] border-b-[1px] border-[#191A23] pb-[2vw]">
+                    <div class="flex max-sm:gap-[3vw] gap-[1vw] items-end">
+                        <img class="max-sm:w-[20vw] w-[6vw]" src="./image/team/member6.png" alt="">
+                        <div>
+                            <h3 class="max-sm:text-[4vw] text-[1.2vw] font-semibold">Sarah Kim</h3>
+                            <p class="max-sm:text-[3.8vw] text-[1.2vw]">Content Creator</p>
+                        </div>
+                    </div>
+                    <img class="max-sm:w-[8vw] w-[2vw]" src="./image/linkedIn.png" alt="">
+                </div>
+                <p class="max-sm:text-[3.5vw] text-[1vw] mt-[2vw]">2+ years of experience in writing and editing
+                    Skilled in creating compelling, SEO-optimized content for various industries</p>
+            </div>
+        </div>
+        <div class="max-sm:block flex justify-end pr-[1vw] max-sm:mt-[3vw]">
+            <button class="max-sm:w-full max-sm:py-[3vw] max-sm:rounded-[3vw]  bg-[#191A23] px-[4vw] py-[1vw] rounded-[1vw] text-white">See all team</button>
+        </div>
+    </div>
+    <div class="page6 w-full h-full px-[5vw] mb-[9vw] overflow-hidden">
+        <div class="max-sm:flex-col max-sm:justify-center max-sm:mt-[10vw] flex items-center gap-[4vw] mb-[4vw]">
+            <h2 class="max-sm:text-[6vw] bg-[#B9FF66] font-semibold text-[3vw] px-[.4vw] rounded-md inline">Testimonials</h2>
+            <p class="max-sm:text-[3.5vw] max-sm:text-center max-sm:w-full text-[1.2vw] w-[44%]">Hear from Our Satisfied Clients: Read Our Testimonials to Learn More about Our Digital Marketing Services</p>
+        </div>
+        <div class="max-sm:hidden bg-[#191A23] rounded-[2vw] pt-[4vw] pb-[3vw]">
+            <div class="w-full flex gap-[5vw]">
+                <div class="relative overflow-hidden">
+                    <img src="./image/leftBubble.png" alt="">
+                    <p class="text-[18px] w-[502px] top-[32px] -left-[270px] text-white absolute">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>    
+                </div>
+                <div class="relative">
+                    <img src="./image/bubble.png" alt="">
+                    <p class="text-[18px] w-[502px] top-[32px] left-[52px] text-white absolute">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
+                    <div class="ml-[5.2vw] mt-[.8vw]">
+                        <h4 class="text-[#B9FF66] text-[1.3vw]">John Smith </h4>
+                        <p class="text-white text-[1vw]">Marketing Director at XYZ Corp</p>
+                    </div>
+                </div>
+                <div class="relative">
+                    <img src="./image/rightBubble.png" alt="">
+                    <p class="text-[18px] w-[502px] top-[32px] -right-[280px] text-white absolute">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
+                    <div class="ml-[5.2vw] mt-[.8vw]">
+                        <h4 class="text-[#B9FF66] text-[1.3vw]">John Smith </h4>
+                        <p class="text-white text-[1vw]">Marketing Director at XYZ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[50%] ml-[22vw] mt-[6vw] flex items-center justify-between">
+                <i class="ri-arrow-left-line text-[2.5vw] text-white"></i>
+                <div class="flex gap-[1vw]">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z" fill="#B9FF66"/>
+                    </svg>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z" fill="white"/>
+                    </svg>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z" fill="white"/>
+                    </svg>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z" fill="white"/>
+                    </svg>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z" fill="white"/>
+                    </svg>
+                        
+                </div>
+                <i class="ri-arrow-right-line text-[2.5vw] text-white"></i>
+            </div>
+        </div>
+        <div class="hidden max-sm:w-full max-sm:block max-sm:relative max-sm:bg-[#191A23] max-sm:rounded-[5vw] max-sm:p-[8vw]">
+            <img src="./image/mobileBubble.png" alt="">
+            <p class="max-sm:text-[3.8vw] max-sm:p-[4vw] text-white max-sm:absolute top-[62px]">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
+            <div class="w-[50%] ml-[20vw] mt-[6vw] flex items-center justify-between">
+                <i class="ri-arrow-left-line text-[2.5vw] text-white"></i>
+                <div class="flex gap-[1vw]">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z" fill="#B9FF66"/>
+                    </svg>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z" fill="white"/>
+                    </svg>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z" fill="white"/>
+                    </svg>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z" fill="white"/>
+                    </svg>
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.0099 2.05941L14 0L11.9604 7.0099L14 14L7.0099 11.9604L0 14L2.05941 7.0099L0 0L7.0099 2.05941Z" fill="white"/>
+                    </svg>            
+                </div>
+                <i class="ri-arrow-right-line text-[2.5vw] text-white"></i>
+            </div>
+        </div>
+    </div>
+    <div class="page7 w-full h-full px-[5vw] overflow-hidden">
+        <div class="max-sm:flex-col max-sm:justify-center max-sm:mt-[10vw] flex items-center gap-[4vw] mb-[4vw]">
+            <h2 class="max-sm:text-[6vw] bg-[#B9FF66] font-semibold text-[3vw] px-[.4vw] rounded-md inline">Contact Us</h2>
+            <p class="max-sm:text-[3.5vw] max-sm:text-center max-sm:w-full text-[1.2vw] w-[44%]">Connect with Us: Let's Discuss Your <br> Digital Marketing Needs</p>
+        </div>
+        <div class="max-sm:p-[5vw] max-sm:mb-[4vw] w-full bg-[#F3F3F3] flex justify-between rounded-[3vw] py-[4vw]">
+            <form action="" class="max-sm:w-full w-[60%] flex flex-col items-center justify-between pl-[8vw] gap-[3vw]">
+                <div class="flex justify-around items-center gap-[3vw]">
+                    <svg class="inline" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" fill="white" stroke="black"/>
+                        <circle cx="15" cy="15" r="8" fill="#B9FF66"/>
+                    </svg>
+                    <label for="hi">Say Hi</label>
+                    <svg class="inline ml-[2vw]" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" fill="white" stroke="black"/>
+                    </svg>                    
+                    <label for="quote">Get a quote</label>
+                </div>
+                <div class="w-full">
+                    <label class="" for="name">Name</label>
+                    <br>
+                    <input placeholder="Name" class="w-full max-sm:p-[2vw] max-sm:rounded-[2.5vw] border-[1px] border-[#191A23] px-[1vw] py-[1vw] rounded-[.5vw]" type="text" name="name" id="name">
+                </div> 
+
+                <div class="w-full">
+                    <label for="Email">Email*</label>
+                    <br>
+                    <input placeholder="Email" class="w-full max-sm:p-[2vw] max-sm:rounded-[2.5vw] border-[1px] border-[#191A23] px-[1vw] py-[1vw] rounded-[.5vw]" type="email" name="email" id="email">
+                </div>
+
+                <div class="w-full">
+                    <label for="message">Message*</label>
+                    <br>
+                    <textarea placeholder="Message" class="w-full max-sm:p-[2vw] max-sm:rounded-[2.5vw] resize-none h-[150px] border-[1px] border-[#191A23] px-[1vw] py-[1vw] rounded-[.5vw]" name="message" id="message"></textarea>
+                </div>
+
+                <button class="max-sm:hidden bg-[#191A23] w-full text-white rounded-[1vw] px-[2vw] py-[1vw]" type="submit">Send Message</button>
+            </form>    
+            <div class="max-sm:hidden w-[680px] relative ">
+                <img class="object-cover w-full h-full absolute left-[260px]" src="./image/spring&Star.png" alt="">    
+            </div>
+        </div>
+        <button class="max-sm:block hidden max-sm:w-full bg-[#191A23] text-white max-sm:rounded-[2vw] max-sm:py-[2vw]" type="submit">Send Message</button>
+    </div>
+    <footer class="w-full min-h-[60vh] max-sm:min-h-[100vh] mt-[7vw] px-[5vw] text-white">
+        <div class="w-full max-sm:min-h-full max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center bg-[#191A23] rounded-t-[3vw] px-[4vw] py-[3vw]">
+            <div class="nav max-sm:flex-col flex items-center justify-between mb-[4vw]">
+                <img class="max-sm:w-[35vw] max-sm:my-[8vw] w-[14vw]" src="./image/logo.png" alt="">
+                <div class="max-sm:hidden navlinks max-sm:flex-col flex gap-[1.5vw]">
+                    <h3><u>About us</u></h3>
+                    <h3><u>Services</u></h3>
+                    <h3><u>Use Cases</u></h3>
+                    <h3><u>Pricing</u></h3>
+                    <h3><u>Blog</u></h3>
+                </div>
+                <div class="hidden max-sm:block max-sm:flex max-sm:flex-col max-sm:gap-[3vw]">
+                    <h3>About us</h3>
+                    <h3>Services</h3>
+                    <h3>Use Cases</h3>
+                    <h3>Pricing</h3>
+                </div>
+                <div class="max-sm:hidden socials flex gap-[.8vw]">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="15" cy="15" r="15" fill="white"/>
+                        <path d="M8.22178 22.0586H11.3059V12.0742H8.22178V22.0586Z" fill="black"/>
+                        <path d="M7.94141 8.88672C7.94141 9.87109 8.7358 10.668 9.76384 10.668C10.7451 10.668 11.5395 9.87109 11.5395 8.88672C11.5395 7.90234 10.7451 7.05859 9.76384 7.05859C8.7358 7.05859 7.94141 7.90234 7.94141 8.88672Z" fill="black"/>
+                        <path d="M19.8106 22.0586H22.9414V16.5742C22.9414 13.9023 22.3339 11.793 19.2031 11.793C17.7078 11.793 16.6797 12.6367 16.2592 13.4336H16.2124V12.0742H13.2685V22.0586H16.3526V17.1367C16.3526 15.8242 16.5863 14.5586 18.2218 14.5586C19.8106 14.5586 19.8106 16.0586 19.8106 17.1836V22.0586Z" fill="black"/>
+                    </svg>
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M30 15.0913C30 6.75456 23.2863 0 15 0C6.71371 0 0 6.75456 0 15.0913C0 22.6369 5.44355 28.9047 12.6411 30V19.4726H8.83064V15.0913H12.6411V11.8053C12.6411 8.03245 14.879 5.90264 18.2661 5.90264C19.9597 5.90264 21.6532 6.2069 21.6532 6.2069V9.91886H19.7782C17.9032 9.91886 17.2984 11.0751 17.2984 12.2921V15.0913H21.4718L20.8065 19.4726H17.2984V30C24.496 28.9047 30 22.6369 30 15.0913Z" fill="white"/>
+                    </svg>
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="15" cy="15" r="15" fill="white"/>
+                        <path d="M21.9961 11.4915C22.6854 10.9745 23.3058 10.3541 23.7884 9.63028C23.168 9.90602 22.4442 10.1128 21.7204 10.1818C22.4786 9.73369 23.0301 9.04435 23.3058 8.18267C22.6165 8.59628 21.8238 8.90648 21.031 9.07881C20.3417 8.35501 19.4111 7.94141 18.3771 7.94141C16.378 7.94141 14.758 9.56135 14.758 11.5604C14.758 11.8362 14.7925 12.1119 14.8614 12.3876C11.8628 12.2153 9.1744 10.7677 7.38212 8.59628C7.07192 9.11328 6.89959 9.73369 6.89959 10.423C6.89959 11.6638 7.51999 12.7668 8.51953 13.4216C7.93359 13.3872 7.34766 13.2493 6.86512 12.9736V13.008C6.86512 14.7659 8.10593 16.2135 9.76034 16.5581C9.48461 16.6271 9.13994 16.696 8.82973 16.696C8.58847 16.696 8.38166 16.6615 8.1404 16.6271C8.58847 18.0747 9.93267 19.1087 11.5182 19.1432C10.2773 20.1082 8.72633 20.6942 7.03745 20.6942C6.72725 20.6942 6.45152 20.6597 6.17578 20.6252C7.76126 21.6592 9.65694 22.2452 11.725 22.2452C18.3771 22.2452 21.9961 16.7649 21.9961 11.974C21.9961 11.8017 21.9961 11.6638 21.9961 11.4915Z" fill="black"/>
+                    </svg>                            
+                </div>
+            </div>
+            <div class="max-sm:w-full max-sm:h-full max-sm:flex-col max-sm:text-center max-sm:gap-[2vw] flex justify-between border-b-[1px] border-[#F3F3F3] pb-[3vw]">
+                <div class="max-sm:w-full w-[40%]">
+                    <h2 class="max-sm:text-[5vw] bg-[#B9FF66] p-[.3vw] text-[1.5vw] inline text-[#191A23] font-semibold ">Contact Us:</h2>
+                    <p class="max-sm:mt-[5vw] max-sm:mb-[2vw] my-[1vw]">Email: info@positivus.com</p>
+                    <p class="max-sm:mb-[2vw] mb-[1vw]">Phone: 555-567-8901</p>
+                    <p>Address: 1234 Main St <br> Moonstone City, Stardust State 12345</p>
+                </div>
+                <div class="max-sm:w-full max-sm:my-[3vw] bg-[#292A32] rounded-[2vw] px-[3vw] py-[5vw]">
+                    <input class="max-sm:w-[70%] max-sm:p-[3vw] max-sm:rounded-[2vw] border-[1px] bg-[#292A32] border-[#F3F3F3] pl-[1vw] pr-[3vw] rounded-[1vw] py-[1vw]" type="email" placeholder="Email">
+                    <button class="max-sm:w-[70%] max-sm:p-[3vw] max-sm:rounded-[2vw] max-sm:mt-[2vw] bg-[#B9FF66] ml-[1vw] text-[#191A23] font-medium rounded-[1vw] px-[3vw] py-[1vw]" type="submit">Subscribe to Newsletter</button>
+                </div>
+                <div class="socials hidden max-sm:block max-sm:flex max-sm:items-center max-sm:justify-center max-sm:gap-[2vw] max-sm:my-[3vw] gap-[.8vw]">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="15" cy="15" r="15" fill="white"/>
+                        <path d="M8.22178 22.0586H11.3059V12.0742H8.22178V22.0586Z" fill="black"/>
+                        <path d="M7.94141 8.88672C7.94141 9.87109 8.7358 10.668 9.76384 10.668C10.7451 10.668 11.5395 9.87109 11.5395 8.88672C11.5395 7.90234 10.7451 7.05859 9.76384 7.05859C8.7358 7.05859 7.94141 7.90234 7.94141 8.88672Z" fill="black"/>
+                        <path d="M19.8106 22.0586H22.9414V16.5742C22.9414 13.9023 22.3339 11.793 19.2031 11.793C17.7078 11.793 16.6797 12.6367 16.2592 13.4336H16.2124V12.0742H13.2685V22.0586H16.3526V17.1367C16.3526 15.8242 16.5863 14.5586 18.2218 14.5586C19.8106 14.5586 19.8106 16.0586 19.8106 17.1836V22.0586Z" fill="black"/>
+                    </svg>
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M30 15.0913C30 6.75456 23.2863 0 15 0C6.71371 0 0 6.75456 0 15.0913C0 22.6369 5.44355 28.9047 12.6411 30V19.4726H8.83064V15.0913H12.6411V11.8053C12.6411 8.03245 14.879 5.90264 18.2661 5.90264C19.9597 5.90264 21.6532 6.2069 21.6532 6.2069V9.91886H19.7782C17.9032 9.91886 17.2984 11.0751 17.2984 12.2921V15.0913H21.4718L20.8065 19.4726H17.2984V30C24.496 28.9047 30 22.6369 30 15.0913Z" fill="white"/>
+                    </svg>
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="15" cy="15" r="15" fill="white"/>
+                        <path d="M21.9961 11.4915C22.6854 10.9745 23.3058 10.3541 23.7884 9.63028C23.168 9.90602 22.4442 10.1128 21.7204 10.1818C22.4786 9.73369 23.0301 9.04435 23.3058 8.18267C22.6165 8.59628 21.8238 8.90648 21.031 9.07881C20.3417 8.35501 19.4111 7.94141 18.3771 7.94141C16.378 7.94141 14.758 9.56135 14.758 11.5604C14.758 11.8362 14.7925 12.1119 14.8614 12.3876C11.8628 12.2153 9.1744 10.7677 7.38212 8.59628C7.07192 9.11328 6.89959 9.73369 6.89959 10.423C6.89959 11.6638 7.51999 12.7668 8.51953 13.4216C7.93359 13.3872 7.34766 13.2493 6.86512 12.9736V13.008C6.86512 14.7659 8.10593 16.2135 9.76034 16.5581C9.48461 16.6271 9.13994 16.696 8.82973 16.696C8.58847 16.696 8.38166 16.6615 8.1404 16.6271C8.58847 18.0747 9.93267 19.1087 11.5182 19.1432C10.2773 20.1082 8.72633 20.6942 7.03745 20.6942C6.72725 20.6942 6.45152 20.6597 6.17578 20.6252C7.76126 21.6592 9.65694 22.2452 11.725 22.2452C18.3771 22.2452 21.9961 16.7649 21.9961 11.974C21.9961 11.8017 21.9961 11.6638 21.9961 11.4915Z" fill="black"/>
+                    </svg>                            
+                </div>
+            </div>
+            <div class="flex max-sm:flex-col max-sm:items-center gap-[3vw] mt-[3vw]">
+                <p class="max-sm:text-[3.5vw] text-[1vw]">&copy; 2023 Positivus. All Rights Reserved.</p>
+                <p class="max-sm:text-[3.5vw] text-[1vw]"><u>Privacy Policy</u></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
